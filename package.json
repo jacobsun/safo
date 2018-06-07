@@ -2,7 +2,7 @@
     "name": "safo",
     "displayName": "safo",
     "description": "vs code plugin, minimalist project generator.",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "publisher": "sunreal",
     "icon": "icon.png",
     "engines": {
