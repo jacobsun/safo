@@ -1,4 +1,4 @@
-# safo -- quickly add eslint and mocha
+# safo -- vs code plugin, minimalist project generator
 
 ![demo](https://raw.githubusercontent.com/jacobsun/safo/master/demo.gif "demo")
 
@@ -14,7 +14,7 @@ safo is a vs code plugin, it helps you quickly add eslint and mocha alongside ch
 
 `safo mocha`
 
-** The commands will be run quitely **, in case anything goes unexpected, check vs code output channel named safo.
+**The commands will be run quitely**, in case anything goes unexpected, check vs code output channel named safo.
 
 ## Feedback
 

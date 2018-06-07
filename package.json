@@ -1,7 +1,7 @@
 {
     "name": "safo",
     "displayName": "safo",
-    "description": "Simple frontend project generator",
+    "description": "vs code plugin, minimalist project generator.",
     "version": "0.2.0",
     "publisher": "sunreal",
     "icon": "icon.png",
