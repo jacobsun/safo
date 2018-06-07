@@ -1,10 +1,10 @@
-# safo --  quickly add eslint and mocha
+# safo -- quickly add eslint and mocha
 
 ![demo](https://raw.githubusercontent.com/jacobsun/safo/master/demo.gif "demo")
 
 safo is a vs code plugin, it helps you quickly add eslint and mocha alongside chai to your current project. So just begin to test your idea.
 
-** The plugin uses yarn **
+**The plugin uses yarn**
 
 ## commands
 
