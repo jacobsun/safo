@@ -4,7 +4,7 @@
     "description": "Simple frontend project generator",
     "version": "0.0.1",
     "publisher": "sunreal",
-    "icon": "https://raw.githubusercontent.com/jacobsun/safo/master/icon.png",
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.23.0"
     },
@@ -40,6 +40,7 @@
         "@types/mocha": "^2.2.42"
     },
     "license": "MIT",
+    "repository": "https://github.com/jacobsun/safo.git",
     "bugs": {
         "url": "https://github.com/jacobsun/safo/issues"
     }
