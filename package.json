@@ -1,0 +1,45 @@
+{
+    "name": "safo",
+    "displayName": "safo",
+    "description": "Simple frontend project generator",
+    "version": "0.0.1",
+    "publisher": "sunreal",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.safoEslint",
+        "onCommand:extension.safoMocha"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.safoEslint",
+                "title": "safo eslint"
+            },
+            {
+                "command": "extension.safoMocha",
+                "title": "safo mocha"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "eslint": "^4.11.0",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jacobsun/safo/issues"
+    }
+}
