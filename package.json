@@ -2,7 +2,7 @@
     "name": "safo",
     "displayName": "safo",
     "description": "Simple frontend project generator",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "publisher": "sunreal",
     "icon": "icon.png",
     "engines": {
