@@ -1,6 +1,8 @@
 # safo -- vs code plugin
 
-![demo](http://p4.cdn.img9.top/ipfs/QmbBu7Q4a3BNHzbYkhrhjwL9iN54RuaHdG8MAcmEuJK6jJ?4.gif "demo")
+![demo](https://raw.githubusercontent.com/jacobsun/safo/master/demo.gif "demo")
+
+![logo](https://raw.githubusercontent.com/jacobsun/safo/master/icon.png "logo")
 
 safo is a vs code plugin, it helps you quickly add eslint and mocha alongside chai to your current project. So just begin to test your idea.
 

@@ -4,6 +4,7 @@
     "description": "Simple frontend project generator",
     "version": "0.0.1",
     "publisher": "sunreal",
+    "icon": "https://raw.githubusercontent.com/jacobsun/safo/master/icon.png",
     "engines": {
         "vscode": "^1.23.0"
     },
