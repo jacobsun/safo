@@ -4,8 +4,6 @@
 
 safo is a vs code plugin, it helps you quickly generate a simple project to test your idea.
 
-** The plugin uses yarn**
-
 ## commands
 
 [yarn](https://yarnpkg.com) should be installed.
