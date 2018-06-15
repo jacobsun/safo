@@ -1,6 +1,6 @@
 
 const {code} = require('./helpers/helpers')
-const {eslint, mocha} = require('./commands')
+const {eslint, mocha, webpack} = require('./commands')
 const output = code.output()
 function activate(context) {
     const sub = Array.prototype.push.bind(context.subscriptions)
@@ -13,8 +13,14 @@ function activate(context) {
         mocha.install(code.cwd, output)
         mocha.config(code.cwd, output)
     })
+
+    let webpackFeature = code.command('safoWebpack', () => {
+        webpack.install(code.cwd, output)
+        webpack.config(code.cwd, output)
+    })
     sub(eslintFeature)
     sub(mochaFeature)
+    sub(webpackFeature)
 }
 exports.activate = activate
 

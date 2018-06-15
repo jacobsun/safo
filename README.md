@@ -2,9 +2,9 @@
 
 ![demo](https://raw.githubusercontent.com/jacobsun/safo/master/demo.gif "demo")
 
-safo is a vs code plugin, it helps you quickly add eslint and mocha alongside chai to your current project. So just begin to test your idea.
+safo is a vs code plugin, it helps you quickly generate a simple project to test your idea.
 
-**The plugin uses yarn**
+** The plugin uses yarn**
 
 ## commands
 
@@ -13,6 +13,8 @@ safo is a vs code plugin, it helps you quickly add eslint and mocha alongside ch
 `safo eslint`
 
 `safo mocha`
+
+`safo webpack`
 
 **The commands will be run quitely**, in case anything goes unexpected, check vs code output channel named safo.
 

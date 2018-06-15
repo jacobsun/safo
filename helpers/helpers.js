@@ -10,7 +10,7 @@ const isPkg = (cwd) => {
   return fs.existsSync(path.join(cwd, 'package.json'))
 }
 
-const createConfig = (cwd, filename, content, output, cb = () => {}) => {
+const createFile = (cwd, filename, content, output, cb = () => {}) => {
   let file = path.join(cwd, filename)
   dirP(file)
   if (fs.existsSync(file)) {
@@ -61,15 +61,9 @@ request.get = (uri, cb) => {
   })
 }
 
-function extractContent(files, ext) {
-  let keys = Object.keys(files)
-  for (let i = 0; i < keys.length; i++) {
-    let key = keys[i]
-    if (key === ext) {
-      return files[key].content
-    }
-  }
-  return null
+function extractContent(files, filename) {
+  filename = path.basename(filename)
+  return files[filename].content
 }
 
 const run = (command, cwd, output, cb = () => {}) => {
@@ -128,7 +122,7 @@ function dirP(filePath) {
 module.exports = {
   request,
   extractContent,
-  createConfig,
+  createFile,
   run,
   code,
   isPkg,

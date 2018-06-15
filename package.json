@@ -1,7 +1,7 @@
 {
     "name": "safo",
     "displayName": "safo",
-    "description": "vs code plugin, minimalist project generator.",
+    "description": "Generate simple JS browser project",
     "version": "0.3.0",
     "publisher": "sunreal",
     "icon": "icon.png",
@@ -13,7 +13,8 @@
     ],
     "activationEvents": [
         "onCommand:extension.safoEslint",
-        "onCommand:extension.safoMocha"
+        "onCommand:extension.safoMocha",
+        "onCommand:extension.safoWebpack"
     ],
     "main": "./extension",
     "contributes": {
@@ -25,6 +26,10 @@
             {
                 "command": "extension.safoMocha",
                 "title": "safo mocha"
+            },
+            {
+                "command": "extension.safoWebpack",
+                "title": "safo webpack"
             }
         ]
     },
